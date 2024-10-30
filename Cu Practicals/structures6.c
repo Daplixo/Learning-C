@@ -35,4 +35,5 @@ int main() {
     printf("Name: %s\nID: %d\nSalary: %.2f\n", emp.name, emp.id, emp.salary);
 
     return 0;
+    // Note: The original struct Employee remains unchanged after the function call.
 }
